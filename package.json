@@ -1,0 +1,21 @@
+{
+  "name": "playwrightpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristinepantoja/PlaywrightPractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kristinepantoja/PlaywrightPractice/issues"
+  },
+  "homepage": "https://github.com/kristinepantoja/PlaywrightPractice#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.32.1"
+  }
+}
