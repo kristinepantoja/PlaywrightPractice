@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/kristinepantoja/PlaywrightPractice#readme",
   "devDependencies": {
-    "@playwright/test": "^1.32.1"
+    "@playwright/test": "^1.32.3"
   },
   "dependencies": {
     "dotenv": "^16.0.3"

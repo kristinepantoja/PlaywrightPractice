@@ -12,7 +12,13 @@ const products = {
 }
 
 const addProduct = {
-    addProductsLink : "navbar-addproduct"
+    addProductsLink : "navbar-addproduct",
+    productName : 'product-textbox',
+    productPrice : 'price-textbox',
+    dateStocked : 'date-stocked',
+    submitForm : 'submit-form',
+    cancelForm : 'cancel-button'
+
 }
 
 const practice = {
