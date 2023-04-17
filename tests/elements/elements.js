@@ -12,12 +12,19 @@ const products = {
 }
 
 const addProduct = {
+    //getByTestId
     addProductsLink : "navbar-addproduct",
     productName : 'product-textbox',
     productPrice : 'price-textbox',
     dateStocked : 'date-stocked',
     submitForm : 'submit-form',
-    cancelForm : 'cancel-button'
+    cancelForm : 'cancel-button',
+    //getByText
+    nameError : 'Name must be at least 2 characters.',
+    priceError : 'Price must not be empty and within 10 digits',
+    dateError : 'Date must not be empty.',
+    formError : 'Please fill in all fields',
+    resolveError : 'Errors must be resolved before submitting'
 
 }
 

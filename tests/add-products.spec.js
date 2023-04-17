@@ -16,3 +16,14 @@ test('Verify all elements are visible', async ({ page }) => {
     await expect(page.getByTestId(addProduct.submitForm)).toBeVisible();
     await expect(page.getByTestId(addProduct.cancelForm)).toBeVisible();
 });
+
+test('Error validation', async ({ page }) => {
+    await page.goto("/add-product");
+    await page.getByTestId(addProduct.submitForm).click();
+
+    await expect(page.getByText(addProduct.nameError)).toBeVisible();
+    await expect(page.getByText(addProduct.priceError)).toBeVisible();
+    await expect(page.getByText(addProduct.dateError)).toBeVisible();
+    await expect(page.getByText(addProduct.formError)).toBeVisible();
+    await expect(page.getByText(addProduct.resolveError)).toBeVisible();
+});
